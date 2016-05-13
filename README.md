@@ -3,5 +3,6 @@ The idea comes from one of the CS 241 assignment which is to build a chatroom se
 * SCENEs
   * It's a module that presents the infomation of the room where the player is at. The infomation includes the objects in the room and the actions player can perform.
 * OBJECTs
-  * 
+  * Module that player can interact with. Basically, it can be divided as creature and non-creature.
 * ACTIONs
+  * Module that shows the available actions that player can perform.
