@@ -3,6 +3,17 @@
 #define USERNAME "Please enter your username\n"
 #define PASSWORD "Please enter your password\n"
 
+struct _user_info{
+  char* username;
+  char* password;
+  int character_id;
+}user_info;
+
+// It will be used as a pointer to the first element in user_info array
+// It will be setup when map_userinfo succeeds
+user_info* user_array;
+int user_num;
+
 // This is a helper function to map the userinfo file into memory
 // It takes file name as parameter 
 // Return 0 on success. Otherwise, return -1
