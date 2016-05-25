@@ -48,6 +48,7 @@ void unmap_userinfo(){
     free(user_array[i].username);
   }
   free(user_array);
+  free(userinfo);
   fclose(fd);
 }
 
