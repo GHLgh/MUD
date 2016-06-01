@@ -1,3 +1,13 @@
+### June 1
+**Tested the login functionality**
+
+**TODO:**
+* Work on character section (should put this into object directory?? Since character can be interacted. Perhaps add a load_character function for server to call)
+  * How to load existing characters efficiently (somehow formatted file??)
+  * How to create new characters
+  * What are the attributes and functionality of a character
+* Note: Use write-back policy (cache approach)
+
 ### May 25
 **Finished the login functionality**
 * So now the procedure [server_accpet => login => server_know_which_character_should_be_loaded] should be able to perform (if nothing goes wrong)
