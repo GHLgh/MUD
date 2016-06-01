@@ -4,6 +4,8 @@
 #define PASSWORD "Please enter your password\n"
 #define NEWUSER  "Username does not exist, creating new character...\n"
 
+#define MSG_SIZE 256 // TODO: should remove this when intergrate to server
+
 typedef struct _user_info{
   char* username;
   char* password;
